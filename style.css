@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+   /* border: 1px solid black;*/
+}
+
+body{
+    font-family: 'Cutive', serif;
+}
+
+.outerShell{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: auto;
+    max-width: 600px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.topBar, button{
+    border:none;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    color:purple;
+   
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.flashCard-container{
+    background-color: rgb(240, 236, 229);
+    border: 2px solid white;
+    border-radius: 2%;
+    height: 100%;
+    width: 50;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+main{
+    display:none;
+}
+
+
+.questions{
+    background-color: purple;
+margin-bottom: 10px;
+padding: 4px 10px;
+margin-left: 10px;
+color: white;
+
+}
+
+.questions ol{
+    max-width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.end-game{
+    display:block;
+}
+
+
+
+
+.highscores{
+    background-color: transparent;
+    border: none;
+    color: rgb(37, 15, 157);
+    font-weight: bold;
+
+}
