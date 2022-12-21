@@ -37,29 +37,29 @@
 
                 </p>
 
-                <button type="button" class="btn btn-secondary btn-lg"> ENTER CHALLENGE </button>
+                <button type="button" id="startGameButton" class="btn btn-secondary btn-lg"> ENTER CHALLENGE </button>
             </header>
 
 
             <!-- Each section represents a flashcard-->
-            <main>
+            <main id="game-card">
 
 
                 <section class="questions">
-                    <h2>Question</h2>
+                    <h2 id="question"></h2>
                    
-                   <div id="choices">
-                         <ul>
-                        <li><button>Answer</button></li>
-                        <li><button>Answer</button></li>
-                        <li><button>Answer</button></li>
-                    </ul>
-                        </div>
-                    <p id="answer">Incorrect,Try again!</p>
+                   <div id="options">
+                         <!-- <ul>
+                            <li><button>Answer</button></li>
+                            <li><button>Answer</button></li>
+                            <li><button>Answer</button></li>
+                         </ul> -->
+                    </div>
+                    <p id="answer"></p>
                 </section>
 
 
-                <section class=end-game>
+                <section class="end-game">
                     <h2>Quiz Finished</h2>
                     <p>Your Final Score:0</p>
 
@@ -90,7 +90,7 @@
 
     </div>
 
-    <script type="text/javascript" src="style.js"></script>
+    <script type="text/javascript" src="game.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
