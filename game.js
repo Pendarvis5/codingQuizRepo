@@ -13,7 +13,7 @@ const questions = [
             b: "css must be placed in the head of the HTML code",
             c: "External .css stylesheets are attached no matter where they are placed",
         },
-        answer: 'b'  // this is pointed to the key in the options field
+        answer: "b"  // this is pointed to the key in the options field
     },
     {
         question: "What does HTML stand for?",
